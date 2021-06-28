@@ -1,0 +1,63 @@
+.about-skils {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+      @include title-block;
+      margin-top: 46px;
+      &-img{
+        margin: 0 auto;
+        background: url('/icons/shape.svg')no-repeat center/cover;
+      }
+      &-info{
+        margin-top: 23px;
+        margin-bottom: 46px;
+      }
+    }
+    .skils__wrapper{
+      width: 772px;
+      gap: 107px;
+      display: flex;
+      justify-content: center;
+      &__column {
+        display: flex;
+        flex-direction: column;
+        &-block{
+          display: flex; 
+          width: 100%;
+          .square{
+            position: relative;
+            z-index: 10;
+            cursor: pointer;
+            @include square;
+            margin-bottom: 15px;
+            @include arrow;
+            &-arrow{
+              width: 6px;
+              height: 6px;
+              z-index: 1;
+              right: 18%;
+            }
+            &:hover{
+              box-shadow: 0 0 10px rgb(134, 128, 128);
+            }
+          }
+          .description{
+            margin-left: 12px;
+            font-size: 16px;
+            line-height: 22px;
+            font-weight: 300;
+            color: #000000;
+          }
+        }
+      }
+      &__column2 {
+        margin-left: 11px;
+      }
+      &__column3 {
+        margin-left: -16px;
+      }
+  
+    }
+    
+  }

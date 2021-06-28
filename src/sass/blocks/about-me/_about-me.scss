@@ -1,0 +1,64 @@
+.about-me {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 145px;
+    margin-bottom: 0;
+    &__title {
+      display: flex;
+      @include title-block;
+      &-info{
+        margin-bottom: 12px;
+      }
+      &-img{
+        margin: 0 auto;
+        background: url('/icons/layers.png')no-repeat center/cover;
+      }
+      &-subtitle{
+        font-size: 16px;
+        line-height: 23px;
+        font-weight: 300;
+        color: #1c1c1c;
+      }
+    }
+    &__form {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 8px;
+      padding-top: 37px;
+      .add-post{
+        resize: none;
+        width: 520px;
+        height: 180px;
+        background-color: rgba(217,217,217,0.0);
+        border: 1px solid #e5e5e5;
+        &::placeholder {
+          padding-top: 19px;
+          padding-left: 19px;
+          font-size: 20px;
+          line-height: 1.2;
+          font-weight: 400;
+          color: #c8c8c8;
+        }
+      }
+      &-btn {
+        width: 116px;
+        height: 51px;
+        background-color: #435993;
+        margin: 0 auto;
+        margin-top: 70px;
+        border-radius: 10px;
+        color: #ffffff;
+        transition: all;
+        margin-bottom: 30px;
+        &:hover {
+          background: linear-gradient(135deg, #435993 0%,#3b679e 1%,#3b679e 1%,#3b679e 26%,#3b679e 50%);
+          box-shadow: 0 0 10px #435993;
+          transition: .5s;
+          text-shadow: 0 0 20px rgb(253, 253, 253);
+        }
+      }
+    }
+  }

@@ -1,0 +1,59 @@
+@mixin title-block {
+    &-img{
+        width: 48px;
+        height: 50px;
+        margin-left: 558px;
+      }
+      &-info{
+        margin-top: 21px;
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: $text-color;
+        text-align: center;
+        margin-bottom: 48px;
+      }
+}
+@mixin square {
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 1px solid #435993;
+    border-radius: 4px;
+}
+@mixin arrow {
+    &-arrow{
+        position: absolute;
+        top: 44%;
+        right: 5.5%;
+        transform: translate(-50%, -50%) rotate(45deg);
+        width: 8px;
+        height: 8px;
+        border: 1px  solid blue;
+        border-top: transparent;
+        border-left: transparent;
+        z-index: 0;
+      }
+}
+@mixin dotted {
+    content: '';
+    position: absolute;
+    top: 110%;
+    height: 20px;
+    border-left:1px dotted $grey-color;
+}
+@mixin bl {
+  position: absolute;
+  top: -4px;
+  left: 24%;
+  line-height: 19px;
+}
+@mixin visual-block {
+  left: 100%;
+  top: 38px;
+  transform: translate(-100%,20%);
+  position: absolute;
+  z-index: 5;
+  width: 770px;
+  height: 19px;
+}

@@ -1,0 +1,45 @@
+https://michalsnik.github.io/aos/    - это выплывающие картинки
+https://files.brainscloud.ru/file/aos-animaciya-elementov  -к этой же теме
+
+https://wowjs.uk/docs.html -- тоже ,что и AOS
+https://animate.style/#contributors
+https://github.com/graingert/wow файлы git
+
+
+http://apps.eky.hk/css-triangle-generator/   ---генератор CSS треугольников
+
+
+https://www.remove.bg/ru  -- удаление фона изображений
+
+https://squoosh.app  -- сжимает и адаптирует картинки и фото для сайтов
+https://imagecompressor.com/ru/ -- сжимает и адаптирует картинки и фото для сайтов
+https://tinypng.com/  -- сжимает и адаптирует картинки и фото для сайтов
+https://www.iloveimg.com/resize-image -- меняем разрешение картинок
+
+https://9elements.github.io/fancy-border-radius/  сервис по созданию разныч фигуо CSS
+
+
+https://www.favicon-generator.org/ генератор фавиконок
+
+https://pixabay.com/ru/photos/  сайт с бесплатными картинками   
+https://unsplash.com/      сайт с бесплатными картинками
+https://www.flaticon.com/  иконки разных размеров
+https://realfavicongenerator.net/ генератор иконок к описанию сайта
+
+
+https://coverr.co/  бесплатные видео
+
+
+https://uigradients.com/#RoyalBlue+Petrol   генератор разных градиентов фона CSS
+
+https://www.transparenttextures.com/  задний фон(типо крпичиков)
+
+http://www.itrack.ru/whatcms/ -узнать движок CMS
+
+
+http://www.jsnice.org/ - разжимает js  файлы
+
+
+https://www.colorzilla.com/gradient-editor/ - создаём разный фон (на генераторе)
+
+https://logartis.info/ saite cool

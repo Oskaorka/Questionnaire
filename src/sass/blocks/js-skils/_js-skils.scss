@@ -1,0 +1,117 @@
+.js-skils {
+    margin-top: 118px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__title {
+      @include title-block;
+      margin-top: 46px;
+      &-img{
+        margin: 0 auto;
+        background: url('/icons/icon_279.svg')no-repeat center/cover;
+      }
+      &-info{
+        margin-top: 23px;
+        margin-bottom: 46px;
+      }
+    }
+    &__wrapper {
+      position: relative;
+      width: 770px;
+      .visual-block {
+        @include visual-block;
+        background: linear-gradient(90.0deg, #ccb1f1 0%, #435993 100%);
+  
+      }
+      .visual-block2 {
+        @include visual-block;
+        z-index: 4;
+        background: linear-gradient(90.0deg, #ccb1f1 0%, #aec1f5 100%);
+      }
+      .visual-hide {
+        @include visual-block;
+        left: inherit;
+        right: 50%;
+        top: 30px;
+        transform: translate(50%,20%) rotate(-1deg);
+        z-index: 10;
+        background-color: rgb(255, 255, 255);
+      }
+      &-text{
+        width: 100%;
+        position: absolute;
+        z-index: 30;
+        font-size: 13px;
+        line-height: 18px;
+        font-weight: 300;
+        color: #2e211c;
+        .bl-1{
+          @include bl;
+          top: 16px;
+          left: 0%;
+          &::before{
+            @include dotted;
+          }
+        }
+        .bl-2{
+          @include bl;
+          &::before{
+            @include dotted;
+          }
+        }
+        .bl-3{
+          position: absolute;
+          top: -4px;
+          left: 49.9%;
+          line-height: 19px;
+          &::before{
+            @include dotted;
+          }
+        }
+        .bl-4{
+          position: absolute;
+          top: 15px;
+          left: 80.4%;
+          line-height: 19px;
+          &::before{
+            @include dotted;
+            right: 0%;
+          }
+        }
+      }
+  
+      .visual__wrapper {
+        position: relative;
+        top: 65px;
+        height: 20px;
+        width: 100%;
+        &-block{
+          position: relative;
+          width: 40px;
+          height: 40px;
+        }
+        &-marker {
+          cursor: pointer;
+          width: 20px;
+          height: 20px;
+          border: 1px solid $grey-color;
+          border-top: 1px solid #e6111100;
+          position: absolute;
+          right: 50%;
+          
+          border-radius: 100%;
+          transform: translate(50%,20%) rotate(-1deg);
+        }
+        @include arrow;
+        &-arrow{
+          border-right: 1px solid $grey-color;
+          border-bottom: 1px solid $grey-color;
+          width: 10px;
+          height: 10px;
+          top: 0;
+          left: 50%;
+          transform: rotate(-135deg) translate(27%, -45%);
+        }   
+      }
+    }
+  }

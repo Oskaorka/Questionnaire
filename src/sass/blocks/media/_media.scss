@@ -1,0 +1,344 @@
+@media (max-width: 1200px) {
+    .container{
+        width: 992px;
+        height: fit-content;
+    }
+    .header {
+        margin: 0 auto;
+        width: 992px;
+        .decor-line{
+            width: inherit;
+        }
+        .h1{
+            margin: 0 auto;
+            margin: 20% 0;
+            text-align: center;
+        }
+        &__nav{
+            margin-top: 10px;
+            &-li{
+                border-bottom: 1px solid #ffffff;
+                a{
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+            }
+        }
+        .burger {
+            display: none;
+            &-nav-style{
+                background: rgba(61, 59, 59, 0.253);
+            }
+            &-title{
+                position: absolute;
+                font-size: 30px;
+                font-weight: 500;
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: #435993;
+            }
+        }
+        .decor-line {
+            margin-top: 15px;
+        }
+    }
+    .subheader{
+        margin: 0 auto;
+        width: 992px;
+        &-img{
+            margin: 0 auto;
+        }
+        .block-years {
+            display: block;
+            margin: 0 auto;
+
+        }
+        &__block {
+            width: 320px;
+            input {
+                width: 320px;
+            }
+        }
+        .block-addres {
+            margin: 10px 0;
+        }
+    }    
+    .about-skils{
+        margin: 0 auto;
+        width: 768px;
+        .skils__wrapper {
+            width: fit-content;
+            gap: 10px;
+            width: inherit;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            // margin:  0 20px;
+            // justify-content: flex-start;
+            // margin-left: 15%;
+
+            // &__column2, &__column3{
+            //     margin: 0;
+            // }
+            // &__column2{
+            //     margin: 0  20px;
+            // }
+        }
+    }    
+    .js-skils{
+        margin: 0 auto;
+        width: 992px;
+    }    
+    .about-me{
+        margin: 0 auto;
+        margin-top: 120px;
+        width: 992px;
+        .add-post{
+            width: fit-content;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        &__form {
+            &-btn{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    } 
+}
+// @media (max-width: 1200px) {
+
+// }
+// @media (min-width: 992px) {
+
+// }
+@media (max-width: 992px) {
+    .container{
+        width: 768px;
+        height: fit-content;
+    }
+    .header {
+        margin: 0 auto;
+        width: 768px;
+        .decor-line{
+            width: inherit;
+        }
+        .h1{
+            margin: 0 auto;
+            margin: 20% 0;
+            text-align: center;
+        }
+        &__nav{
+            margin-top: 10px;
+            &-li{
+                border-bottom: 1px solid #ffffff;
+                a{
+                    font-size: 18px;
+                    font-weight: 300;
+                }
+            }
+        }
+        .burger {
+            display: none;
+            &-nav-style{
+                background: rgba(61, 59, 59, 0.253);
+            }
+            &-title{
+                position: absolute;
+                font-size: 30px;
+                font-weight: 500;
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: #435993;
+            }
+        }
+        .decor-line {
+            margin-top: 15px;
+        }
+    }
+    .subheader{
+        margin: 0 auto;
+        width: 768px;
+        &-img{
+            margin: 0 auto;
+        }
+        .block-years {
+            display: block;
+            margin: 0 auto;
+            // &-text{
+            //     // margin: 0 auto;
+            // }
+
+        }
+        &__block {
+            width: 320px;
+            input {
+                width: 320px;
+            }
+        }
+        .block-addres {
+            margin: 10px 0;
+        }
+    }    
+    .about-skils{
+        margin: 0 auto;
+        width: 768px;
+        .skils__wrapper {
+            // width: fit-content;
+            gap: 10px;
+            flex-wrap: wrap;
+            // justify-content: flex-start;
+            // margin-left: 15%;
+            &__column2, &__column3{
+                margin: 0;
+            }
+        }
+    }    
+    .js-skils{
+        margin: 0 auto;
+        // display: none;
+        width: 768px;
+        // &__wrapper {
+        //     // display: none;
+        // }
+    }    
+    .about-me{
+        margin: 0 auto;
+        margin-top: 120px;
+        width: 768px;
+        .add-post{
+            width: fit-content;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        &__form {
+            &-btn{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }   
+}
+@media (max-width: 768px) {
+    .container{
+        width: 576px;
+        height: fit-content;
+    }
+    .header {
+        margin: 0 auto;
+        width: 576px;
+        .decor-line{
+            width: inherit;
+        }
+        .h1{
+            margin: 0 auto;
+            margin: 30% 0;
+            text-align: center;
+        }
+        &__nav{
+            display: none;
+            &-li{
+                padding: 10px;
+                border-bottom: 1px solid #ffffff;
+                a{
+                    font-size: 30px;
+                    font-weight: 500;
+                }
+            }
+        }
+        .burger {
+            display: block;
+            &-nav-style{
+                background: rgba(61, 59, 59, 0.253);
+            }
+            &-title{
+                position: absolute;
+                font-size: 30px;
+                font-weight: 500;
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: #435993;
+            }
+        }
+        .decor-line {
+            margin-top: 15px;
+        }
+    }
+    .subheader{
+        margin: 0 auto;
+        width: 576px;
+        // &-img{
+        //     margin: 0 auto;
+        // }
+        // .block-years {
+        //     display: block;
+        //     // margin: 0 auto;
+        // }
+        &__block {
+            width: 320px;
+            input {
+                width: 320px;
+            }
+        }
+        .block-addres {
+            margin: 10px 0;
+        }
+    }    
+    .about-skils{
+        margin: 0 auto;
+        width: 576px;
+        .skils__wrapper {
+            width: fit-content;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            margin-left: 15%;
+            &__column2, &__column3{
+                margin: 0;
+            }
+        }
+    }    
+    .js-skils{
+        margin: 0 auto;
+        display: none;
+        width: 576px;
+        &__wrapper {
+            display: none;
+        }
+    }    
+    .about-me{
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 576px;
+        .add-post{
+            width: fit-content;
+            margin: 0 auto;
+            margin-top: 30px;
+        }
+        &__form {
+            &-btn{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }   
+}
+@media (max-width: 576px) {
+    .container{
+        width: 320px;
+    }
+    .header {
+        width: 320px;
+    }
+    .subheader{
+        width: 320px;
+    }    
+    .about-skils{
+        width: 320px;
+    }       
+    .about-me{
+        width: 320px;
+    }    
+}

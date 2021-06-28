@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Анкета</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body> 
+    <div class="header">
+      <div class="container">
+        <ul class="header__nav">
+          <li class="header__nav-li"><a href="#subheader">Личная информация</a> </li>
+          <li class="header__nav-li"><a href="#about-skils">Опыт</a></li>
+          <li class="header__nav-li"><a href="#js-skils">JavaScript</a></li>
+          <li class="header__nav-li"><a href="#about-me">О себе</a></li>              
+        </ul>
+        <div class="burger">
+          <div id="burger-title" class="burger-title">меню</div>  
+          <ul id="burger-nav" class="burger-nav-style">
+            <div id="burger-close" class="burger-close"></div>
+            <li class="header__nav-li"><a href="#subheader">Личная информация</a> </li>
+            <li class="header__nav-li"><a href="#about-skils">Опыт</a></li>
+            <li class="header__nav-li"><a href="#js-skils">JavaScript</a></li>
+            <li class="header__nav-li"><a href="#about-me">О себе</a></li>              
+          </ul>
+        </div>
+        <div class="decor-line"></div>
+        <div class="h1">Анкета</div>
+      </div>
+    </div>
+
+    <div id="subheader" class="subheader">
+      <div class="subheader-img"></div>
+      <div class="subheader-info">Личная информация</div>
+      <div class="subheader__block">
+        <input type="text" class="block-addres block" placeholder="ФИО">
+        <div class="">
+          <div id="block-years" class="block-years block">
+            <div class="block-years-text">Год рождения</div>
+            <div class="block-years-arrow">
+            </div>
+              <ul class="block-years-hiden">
+                <li><a id="data-year" data-year='1992' href="#">1992</a></li>
+                <li><a id="data-year" data-year='1993' href="#">1993</a></li>
+                <li><a id="data-year" data-year='1994' href="#">1994</a></li>
+                <li><a id="data-year" data-year='1995' href="#">1995</a></li>
+                <li><a id="data-year" data-year='1996' href="#">1996</a></li>
+                <li><a id="data-year" data-year='1997' href="#">1997</a></li>
+                <li><a id="data-year" data-year='1998' href="#">1998</a></li>  
+              </ul>
+            </div>
+        </div>
+        <input type="text" class="block-addres block" placeholder="Место проживания">
+        <input type="text" class="block-addres block" placeholder="Skype">
+        <input type="text" class="block-addres block" placeholder="E-mail">
+      </div>
+    </div>
+    <div id="about-skils" class="about-skils">
+      <div class="about-skils__title">
+        <div class="about-skils__title-img"></div>
+        <div class="about-skils__title-info">Расскажите о своем опыте</div>
+      </div>
+      <div class="skils__wrapper">
+        <div class="skils__wrapper__column">
+          <div class="skils__wrapper__column-block">
+            <div id="square" class="square"></div>
+            <div class="description">БЭМ/OOCSS</div>
+          </div>
+          <div class="skils__wrapper__column-block">
+            <div id="square" class="square"></div>
+            <div class="description">Stylus/LESS/SASS</div>
+          </div>
+          <div class="skils__wrapper__column-block">
+            <div id="square" class="square"></div>
+            <div class="description">Работаю с SVG</div>
+          </div>
+        </div>
+        <div class="skils__wrapper__column skils__wrapper__column2">
+          <div class="skils__wrapper__column-block">
+            <div id="square" class="square"></div>
+            <div class="description">Верстаю семантично</div>
+          </div>
+          <div class="skils__wrapper__column-block">
+            <div id="square" class="square"></div>
+            <div class="description">ES2015/ES2016</div>
+          </div>
+          <div class="skils__wrapper__column-block">
+            <div id="square" class="square"></div>
+            <div class="description">Gulp/GRUNT</div>
+          </div>  
+        </div>
+        <div class="skils__wrapper__column skils__wrapper__column3">
+          <div class="skils__wrapper__column-block">
+            <div id="square" class="square">
+            </div>
+            <div class="description">Webpack</div>
+          </div>
+          <div class="skils__wrapper__column-block">
+            <div id="square" class="square">
+            </div>
+            <div class="description">jQuery</div>
+          </div>
+          <div class="skils__wrapper__column-block">
+            <div id="square" class="square" >
+            </div>
+            <div class="description">Ипользую Git</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="js-skils" class="js-skils">
+      <div class="js-skils-title">
+        <div class="js-skils__title-img"></div>
+        <div class="js-skils__title-info">Уровень владения JavaScript</div>
+      </div>
+      <div class="js-skils__wrapper">
+        <div class="js-skils__wrapper-text">
+          <div class="bl-1">Не владею</div>
+          <div class="bl-2">Использую готовые<br>
+            решения</div>
+          <div class="bl-3">Использую готовые решения<br>
+            и умею и переделывать</div>
+          <div class="bl-4">Пишу сложный JS с нуля</div>
+        </div>
+        <div class="visual-block"></div>
+        <div class="visual-block2"></div>
+        <div class="visual-hide"></div>
+        <div id="visual-wrapper" class="visual__wrapper">
+          <div id="visual__wrapper-block" class="visual__wrapper-block">
+            <div id="marker" class="visual__wrapper-marker"></div>
+            <div class="visual__wrapper-arrow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about-me" class="about-me">
+      <div class="container">
+        <div class="about-me-title">
+          <div class="about-me__title-img"></div>
+          <div class="about-me__title-info">Расскажите о себе</div>
+          <div class="about-me__title-subtitle">Напишите несколько предложений, чем привлекла наша вакансия<br>
+            и что вы ожидаете от работы у нас.</div>
+        </div>
+        <div class="about-me__form">
+          <textarea class="add-post" name="" id="" cols="30" rows="10" placeholder="Понравилось тем, что ..."></textarea>
+          <button class="about-me__form-btn">Готово</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
